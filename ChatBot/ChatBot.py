@@ -15,7 +15,7 @@ st.set_page_config(page_title="💬 Resume Helper")
 
 def generate_response(name, temperature, top_p, max_length ,prompt_input,messages):
     name = 'Gemini-pro'
-    string_dialogue = "You are a helpful assistant. You do not respond as 'User' or pretend to be 'User'. do not start the sentance with assitant: '."
+    string_dialogue = "You are a helpful Resume assistant. You do not respond as 'User' or pretend to be 'User'. do not start the sentance with assitant: '."
     for dict_message in messages:
         content = dict_message["content"]
 
